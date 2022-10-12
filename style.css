@@ -1,0 +1,46 @@
+body {
+    background-image: url(bg.png);
+}
+
+.container {
+    background-color: lightblue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    margin: 2px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: #333;
+}
+
+.button:hover {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background: #008087;
+}
+
+.hasil {
+    width: 230px;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    background: #eeefff;
+    opacity: .7;
+}
